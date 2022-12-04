@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.kostya.constellationmap">
-
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/logo"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/logo_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.ConstellationMap"
-        tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-    </application>
-
-</manifest>
+<?xml version="1.0" encoding="utf-8"?>//Гівно код
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"//Гівно код
+    xmlns:tools="http://schemas.android.com/tools"//Гівно код
+    package="com.kostya.constellationmap">//Гівно код
+//Гівно код
+    <application//Гівно код
+        android:allowBackup="true"//Гівно код
+        android:dataExtractionRules="@xml/data_extraction_rules"//Гівно код
+        android:fullBackupContent="@xml/backup_rules"//Гівно код
+        android:icon="@mipmap/logo"//Гівно код
+        android:label="@string/app_name"//Гівно код
+        android:roundIcon="@mipmap/logo_round"//Гівно код
+        android:supportsRtl="true"//Гівно код
+        android:theme="@style/Theme.ConstellationMap"//Гівно код
+        tools:targetApi="31">//Гівно код
+        <activity//Гівно код
+            android:name=".MainActivity"//Гівно код
+            android:exported="true">//Гівно код
+            <intent-filter>//Гівно код
+                <action android:name="android.intent.action.MAIN" />//Гівно код
+                <category android:name="android.intent.category.LAUNCHER" />//Гівно код
+            </intent-filter>//Гівно код
+        </activity>//Гівно код
+//Гівно код
+    </application>//Гівно код
+//Гівно код
+</manifest> //Гівно код
